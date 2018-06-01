@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:layout_marginStart="11dp"
+    android:layout_marginTop="43dp"
+    android:id="@+id/RFuserName"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:text=""
+    tools:ignore="LabelFor" />
+
+<TextView
+    android:text="@string/user_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/RUserName"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_alignParentTop="true"
+    android:layout_alignStart="@+id/RFuserName"
+    android:layout_marginTop="18dp" />
+
+<TextView
+    android:text="@string/confirm_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Rconfirm"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_below="@+id/RFpassword"
+    android:layout_alignStart="@+id/Rpassword" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType=""
+    android:text=""
+    android:ems="10"
+    android:id="@+id/RFpassword"
+    android:layout_below="@+id/Rpassword"
+    android:layout_alignStart="@+id/Rconfirm"
+    tools:ignore="LabelFor,TextFields" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:text=""
+    android:ems="10"
+    android:id="@+id/RFconfirm"
+    android:layout_below="@+id/Rconfirm"
+    android:layout_alignParentEnd="true"
+    tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/RemailAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/RFuserName"
+        android:layout_below="@+id/RFuserName"
+        android:text="@string/email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:text=""
+    android:ems="10"
+    android:id="@+id/RFemailAddr"
+    android:layout_below="@+id/RemailAddr"
+    android:layout_alignStart="@+id/Rpassword"
+    tools:ignore="LabelFor" />
+
+<TextView
+    android:text="@string/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Rpassword"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_below="@+id/RFemailAddr"
+    android:layout_alignStart="@+id/RemailAddr" />
+
+<Button
+    android:text="@string/register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Rregister"
+    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+    android:layout_below="@+id/RFconfirm"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="78dp" />
+</RelativeLayout>

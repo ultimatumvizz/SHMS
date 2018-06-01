@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">eHEAL_reunion</string>
+    <string name="button">Button</string>
+    <string name="title_activity_location">Map</string>
+    <string name="location">Location</string>
+    <string name="ecg">ECG</string>
+    <string name="welcome">Welcome</string>
+    <string name="pulse">Pulse</string>
+    <string name="temp">TEMP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="username">Username</string>
+    <string name="register">register</string>
+    <string name="email">Email</string>
+</resources>
